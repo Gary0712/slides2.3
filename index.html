@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
-<head>
-  <meta charset="utf-8">
-  <link rel="icon" href="./icon.jpg" type="image/x-icon"/>
-  <title>无缝轮播</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
 
-    <div class="window">
-        <div id="slides" class="images">
-            <img src="./1.png" alt="图片" width:"400" height:"300">
-            <img src="./2.png" alt="图片" width:"400" height:"300">
-            <img src="./3.png" alt="图片" width:"400" height:"300">
-            
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="./icon.jpg" type="image/x-icon" />
+    <title>无缝轮播</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="window">
+            <div id="slides" class="images">
+                <img src="./1.png" alt="图片" width: "400" height: "300">
+                <img src="./2.png" alt="图片" width: "400" height: "300">
+                <img src="./3.png" alt="图片" width: "400" height: "300">
+                <img src="./4.png" alt="图片" width: "400" height: "300">
+            </div>
+        </div>
+        <div id="controls" style="text-align:center;">
+            <button id="previous">上一张</button>
+            <button id="next">下一张</button>
+        </div>
+        <div id="buttonWrapper" style="text-align:center;">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
         </div>
     </div>
-    <div id="buttonWrapper" style="text-align:center;">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-    </div>
+
 
     <script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
     <script src="./main.js"></script>
 </body>
-</html>  
+
+</html>
